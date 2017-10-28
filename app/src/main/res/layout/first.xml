@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="\n \t В начале времен не были в мире ни песка, ни моря, ни волн холодных; земли еще не было, не было небосвода. И только зияла огромная черная бездна Гинунгагап (выделить это слово), или Мировая бездна. К северу от нее был Нифльхейм, Темный мир. Оттуда шел холод и свирепая непогода. А к югу от Мировой бездны располагался мир жара и огня Муспелльхейм. С севера Мировая бездна заполнялась льдом и инеем, а с юга в нее залетали искры из Муспелльхейма. Когда же иней и теплый воздух встретились, иней стал таять, и капли, стекавшие вниз, породили первое существо - великана Имира.\n \t
+  \t Но стоит отметить, что по древнескандинавским поверьям Огненные великаны были раньше Имира, однако именно от Имира пошел род богов и существ. Возможно поэтому в разных писаниях Имира называют первым существом, древним прародителем всех.
+"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Назад, но не куда, этой кнопки не будет на первых страницах"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Дальше" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
